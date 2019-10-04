@@ -17,7 +17,7 @@ def translate(w):
             return "We didn't understand your entry."
     else:
         return "The word didn't exist. Please double check it."
-
+##chitresh chutiya
 word = input("Enter word: ")
 output = translate(word)
 if type(output) == list:
@@ -25,3 +25,4 @@ if type(output) == list:
         print(item)
 else:
     print(output)
+#you are awesome
