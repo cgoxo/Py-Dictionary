@@ -4,7 +4,7 @@ from difflib import get_close_matches
 data = json.load(open("data.json"))
 
 def translate(w):
-    w = w.lower()
+    w = w.lower()#turns to Lowercase
     if w in data:
         return data[w]
     elif len(get_close_matches(w, data.keys())) > 0:
