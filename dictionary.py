@@ -28,3 +28,6 @@ if type(output) == list:
 else:
     print(output)
 #This Program ends here.
+#a book that contains a list of words in alphabetical order and explains their meanings, 
+#or gives a word for them in another language; an electronic product giving similar information on a computer, smartphone, 
+#etc.: a French-English/English-French dictionary. 
