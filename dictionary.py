@@ -3,6 +3,7 @@ from difflib import get_close_matches
 
 data = json.load(open("data.json"))#this locates to json
 
+# main calling function 
 def translate(w):
     w = w.lower()#turns to Lowercase
     if w in data:
@@ -17,6 +18,8 @@ def translate(w):
             return "We didn't understand your entry."
     else:
         return "The word didn't exist. Please double check it."
+   
+# driver code for program
 word = input("Enter word: ")
 output = translate(word)
 if type(output) == list:
